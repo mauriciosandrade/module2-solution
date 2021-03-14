@@ -1,0 +1,169 @@
+body { 
+		font-family: Arial;
+}
+
+h1 { 
+	font-size: 175%;
+	text-align: center;
+}
+
+h2 {
+	font-size: 125%;
+
+}
+
+p {
+	font-size: 1em;
+}
+
+.row {
+	overflow: auto;
+}
+
+.cell {
+	margin: 10px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	background-color: #30b0b0;
+	padding: 10px;
+}
+
+.cell p {
+	clear: right;
+}
+
+.cell-title-org {
+	background-color: orange;
+}
+
+.cell-title-yel {
+	background-color: yellow;
+}
+
+.cell-title-red {
+	background-color: red;
+}
+
+.cell-title {
+	display: block;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	text-align: center;
+	position: relative;
+	right: -12px;
+	top: -12px;
+	float: right;
+}
+
+.cell-title h2 {
+	margin: 5px 0px 5px 0px;	
+}	
+
+@media screen and (min-width: 992px) {
+
+	.cell-title1 {
+		width: 30%;
+	}	
+
+	.cell-title2 {
+		width: 30%;
+	}	
+
+	.cell-title3 {
+		width: 30%;
+	}	
+
+	.container1 {
+		width: 33%;
+		float: left;
+	}
+
+	.container2 {
+		width: 33%;
+		float: left;
+	}
+
+	.container3 {
+		width: 33%;
+		float: left;
+	}
+
+}
+
+@media screen and (min-width: 768px) and  (max-width: 991px) {
+
+	.cell-title1 {
+		width: 25%;
+	}	
+
+	.cell-title2 {
+		width: 25%;
+	}	
+
+	.cell-title3 {
+		width: 15%;
+	}	
+
+	.container1 {
+		width: 50%;
+		float: left;
+	}
+
+	.container2 {
+		width: 50%;
+		float: left;
+	}
+
+	.container3 {
+		width: 100%;
+		float: left;
+	}
+	
+}
+
+@media screen and (max-width: 767px) {
+	
+	.cell-title1 {
+		width: 25%;
+	}	
+
+	.cell-title2 {
+		width: 25%;
+	}	
+
+	.cell-title3 {
+		width: 25%;
+	}	
+
+	.container1 {
+		width: 80%;
+		min-width: 400px;
+		margin-bottom: 20px;
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.container2 {
+		width: 80%;
+		min-width: 400px;
+		margin-bottom: 20px;
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.container3 {
+		width: 80%;
+		min-width: 400px;
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
